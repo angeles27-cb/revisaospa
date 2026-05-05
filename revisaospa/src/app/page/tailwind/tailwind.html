@@ -1,67 +1,111 @@
-<section class="mb-16">
+<main class="container mx-auto py-16 px-6">
+  <div class="mb-16 border-l-8 border-blue-600 pl-6">
+    <h3 class="text-4xl font-black text-blue-900 uppercase leading-none">Transformações Urbanas <br> e Ambientais</h3>
+    <p class="text-gray-600 mt-2 text-lg italic">A reconfiguração do espaço e da natureza em uma era de automação absoluta.</p>
+  </div>
 
-    <div class="flex items-center gap-3 mb-6">
-
-        <span class="bg-sky-100 text-sky-600 font-bold px-3 py-1 rounded-full text-sm uppercase tracking-wider">Introdução</span>
-
-        <h3 class="text-3xl font-extrabold text-slate-900">O que é o Tailwind CSS?</h3>
-
+  <section class="flex flex-col lg:flex-row gap-12 items-center mb-24">
+    <div class="lg:w-1/2 group overflow-hidden rounded-2xl shadow-2xl border-4 border-green-500">
+      <img src="https://images.unsplash.com/photo-1449491023939-994161748281?auto=format&fit=crop&q=80&w=800" 
+           alt="Natureza e Tecnologia" 
+           class="w-full h-[400px] object-cover group-hover:scale-110 transition duration-500">
     </div>
-
-    <div class="prose prose-slate max-w-none text-slate-600 leading-relaxed space-y-4">
-
-        <p>
-
-            O <strong>Tailwind CSS</strong> é um framework de CSS "Utility-First" (utilidade primeiro). Ao contrário de frameworks tradicionais como Bootstrap ou Foundation, ele não vem com componentes pré-estilizados (como botões ou cartões prontos).
-
-        </p>
-
-        <p>
-
-            Em vez disso, ele fornece milhares de <strong>classes utilitárias</strong> minúsculas — como <code class="text-pink-600 bg-pink-50 px-1 rounded">flex</code>, <code class="text-pink-600 bg-pink-50 px-1 rounded">pt-4</code>, <code class="text-pink-600 bg-pink-50 px-1 rounded">text-center</code> e <code class="text-pink-600 bg-pink-50 px-1 rounded">rotate-90</code> — que podem ser combinadas diretamente no seu HTML para construir qualquer design imaginável.
-
-        </p>
-
+    <div class="lg:w-1/2">
+      <span class="text-green-600 font-bold uppercase tracking-widest text-sm">Sustentabilidade Algorítmica</span>
+      <h4 class="text-3xl font-black text-blue-900 mt-2 mb-4">Impactos Ambientais</h4>
+      <p class="text-gray-700 leading-relaxed mb-6">
+        A eficiência robótica permitiu uma redução drástica no desperdício de matéria-prima, mas a demanda energética das IAs exige infraestruturas massivas. O paradoxo de Automatária reside no céu limpo de fábricas sem chaminés contraposto ao calor residual dos gigantescos centros de processamento.
+      </p>
+      <ul class="space-y-3 font-semibold text-blue-800">
+        <li class="flex items-center gap-2">
+          <div class="w-2 h-2 bg-yellow-500 rounded-full shadow-[0_0_8px_rgba(234,179,8,0.8)]"></div> Recuperação de 40% das áreas verdes antes ocupadas por zonas industriais.
+        </li>
+        <li class="flex items-center gap-2">
+          <div class="w-2 h-2 bg-yellow-500 rounded-full shadow-[0_0_8px_rgba(234,179,8,0.8)]"></div> Pegada de carbono neutra através de micro-geração eólica distribuída.
+        </li>
+      </ul>
     </div>
+  </section>
 
-    <div class="mt-8 grid sm:grid-cols-2 gap-4">
+  <section class="flex flex-col lg:flex-row-reverse gap-12 items-center mb-24">
+    <div class="lg:w-1/2 overflow-hidden rounded-2xl shadow-2xl border-4 border-blue-900">
+      <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800" 
+           alt="Interação Humana e Vazio" 
+           class="w-full h-[400px] object-cover hover:grayscale transition duration-500">
+    </div>
+    <div class="lg:w-1/2">
+      <span class="text-yellow-600 font-bold uppercase tracking-widest text-sm">Relações Humanas</span>
+      <h4 class="text-3xl font-black text-blue-900 mt-2 mb-4">Crise de Identidade Social</h4>
+      <p class="text-gray-700 leading-relaxed mb-6">
+        Com as cidades operando de forma autônoma, o cidadão perdeu a conexão com o "fazer". A identidade, antes moldada pela profissão, agora flutua em um mar de ócio. A arquitetura urbana reflete isso em praças silenciosas onde a interação humana é mediada por telas, gerando um distanciamento físico da realidade coletiva.
+      </p>
+      <div class="bg-blue-50 p-6 rounded-xl border-r-4 border-blue-600 italic text-blue-900">
+        "Nossas cidades são perfeitas e eficientes, mas carecem do caos humano que definia nossa história."
+      </div>
+    </div>
+  </section>
 
-        <div class="flex items-start p-4 bg-white border border-slate-100 rounded-xl shadow-sm">
-
-            <div class="bg-sky-500 p-2 rounded-lg text-white mr-4">
-
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 11-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"></path></svg>
-
-            </div>
-
-            <div>
-
-                <h4 class="font-bold text-slate-800">Sem CSS Personalizado</h4>
-
-                <p class="text-sm text-slate-500">Você raramente precisará escrever arquivos .css separados.</p>
-
-            </div>
-
+  <section class="flex flex-col lg:flex-row gap-12 items-center mb-24">
+    <div class="lg:w-1/2 group overflow-hidden rounded-2xl shadow-2xl border-4 border-green-600">
+      <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80&w=800" 
+           alt="Cidade Inteligente" 
+           class="w-full h-[400px] object-cover group-hover:scale-110 transition duration-500">
+    </div>
+    <div class="lg:w-1/2">
+      <span class="text-blue-600 font-bold uppercase tracking-widest text-sm">Urbanismo 4.0</span>
+      <h4 class="text-3xl font-black text-blue-900 mt-2 mb-4">Transformação das Cidades</h4>
+      <p class="text-gray-700 leading-relaxed mb-6">
+        As cidades de Automatária não possuem mais garagens ou semáforos complexos. O fluxo é ditado por algoritmos de tráfego invisível. Antigos distritos financeiros foram convertidos em florestas verticais e habitações modulares, priorizando o deslocamento suave e a eliminação do ruído mecânico.
+      </p>
+      <div class="space-y-4">
+        <div class="bg-green-50 p-4 rounded-lg flex items-center gap-4">
+          <div class="text-green-600 font-black text-2xl">85%</div>
+          <p class="text-sm text-gray-700">Da malha urbana foi devolvida para o uso exclusivo de pedestres e ciclovias inteligentes.</p>
         </div>
-
-        <div class="flex items-start p-4 bg-white border border-slate-100 rounded-xl shadow-sm">
-
-            <div class="bg-indigo-500 p-2 rounded-lg text-white mr-4">
-
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
-
-            </div>
-
-            <div>
-
-                <h4 class="font-bold text-slate-800">Altamente Customizável</h4>
-
-                <p class="text-sm text-slate-500">Controle total sobre cores, fontes e espaçamentos via configuração.</p>
-
-            </div>
-
-        </div>
-
+      </div>
     </div>
+  </section>
 
-</section>
+  <section class="flex flex-col lg:flex-row-reverse gap-12 items-center mb-24">
+    <div class="lg:w-1/2 overflow-hidden rounded-2xl shadow-2xl border-4 border-yellow-400">
+      <img src="https://images.unsplash.com/photo-1514525253361-bee8a81660d1?auto=format&fit=crop&q=80&w=800" 
+           alt="Espetáculo e Arte" 
+           class="w-full h-[400px] object-cover hover:scale-105 transition duration-700">
+    </div>
+    <div class="lg:w-1/2">
+      <span class="text-green-600 font-bold uppercase tracking-widest text-sm">Economia da Atenção</span>
+      <h4 class="text-3xl font-black text-blue-900 mt-2 mb-4">Valorização da Cultura e Entretenimento</h4>
+      <p class="text-gray-700 leading-relaxed mb-6">
+        Em um mundo sem trabalho braçal, a cultura tornou-se o novo "trabalho". O entretenimento imersivo, os festivais de arte urbana e as competições intelectuais ocupam o centro da vida cívica. O status agora é medido pela capacidade criativa e pelo engajamento em projetos culturais comunitários.
+      </p>
+      <div class="bg-yellow-50 p-6 rounded-xl border-l-4 border-yellow-500 italic text-blue-900 font-medium">
+        "O espetáculo é a infraestrutura que mantém a coesão social em tempos de desemprego total."
+      </div>
+    </div>
+  </section>
+
+  <section class="flex flex-col lg:flex-row gap-12 items-center mb-24">
+    <div class="lg:w-1/2 group overflow-hidden rounded-2xl shadow-2xl border-4 border-blue-900">
+      <img src="https://images.unsplash.com/photo-1541873676947-074360e2010c?auto=format&fit=crop&q=80&w=800" 
+           alt="Protesto e Gestão Pública" 
+           class="w-full h-[400px] object-cover group-hover:scale-110 transition duration-500">
+    </div>
+    <div class="lg:w-1/2">
+      <span class="text-blue-900 font-bold uppercase tracking-widest text-sm">Governança Crítica</span>
+      <h4 class="text-4xl font-black text-blue-900 mt-2 mb-4">Pressão por Novas Políticas</h4>
+      <p class="text-gray-700 leading-relaxed mb-6">
+        A perfeição estética das cidades não oculta a necessidade de reformas. Há uma pressão crescente por políticas que democratizem o acesso ao hardware de ponta e garantam que a automação ambiental não exclua as periferias. O debate público agora foca na "Soberania Espacial" do cidadão comum.
+      </p>
+      <ul class="space-y-3 font-extrabold text-blue-900 bg-blue-50 p-6 rounded-xl border-l-8 border-yellow-500">
+        <li class="flex items-start gap-3">
+          <div class="mt-1.5 w-3 h-3 bg-red-600 rounded-full animate-pulse"></div>
+          <span>Exigência de auditorias humanas em algoritmos de planejamento urbano.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <div class="mt-1.5 w-3 h-3 bg-red-600 rounded-full animate-pulse"></div>
+          <span>Pauta de descentralização do fornecimento de recursos vitais (Água/Luz).</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>

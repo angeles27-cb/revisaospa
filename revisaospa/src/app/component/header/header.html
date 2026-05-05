@@ -1,25 +1,27 @@
-<nav class="bg-fuchsia-300 p-4 text-white shadow-md">
-
-      <div class="container mx-auto flex justify-between items-center">
-
-        <h1 class="text-xl font-bold">App</h1>
-
-        <div class="flex gap-4">
-
-          <a routerLink="/angular" 
-
-             routerLinkActive="underline font-bold" 
-
-             class="hover:text-shadow-pi transition">Angular</a>
-
-          <a routerLink="/tailwind" 
-
-             routerLinkActive="underline font-bold" 
-
-             class="hover:text-pink-200 transition">Tailwind</a>
-
-        </div>
-
-      </div>
-
-    </nav>
+<nav class="bg-blue-900 border-b-4 border-yellow-400 p-6 text-white shadow-2xl sticky top-0 z-50">
+  <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center gap-4">
+    <div class="flex items-center gap-3">
+      <div class="w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center text-blue-900 font-black">A16</div>
+      <h1 class="text-2xl font-black tracking-tighter uppercase italic">Automatária</h1>
+    </div>
+    <div class="flex gap-8 items-center text-sm font-bold uppercase tracking-widest">
+      <a routerLink="/angular" class="hover:text-green-400 transition">Educação</a>
+      <a routerLink="/tailwind" class="hover:text-green-400 transition">Urbanismo</a>
+      <a routerLink="/impactos" class="hover:text-green-400 transition">Impactos Sociais</a>
+    </div>
+  </div>
+</nav>
+<header class="relative bg-blue-900 py-24 px-6 overflow-hidden">
+  <div class="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1000')] bg-cover bg-center"></div>
+  
+  <div class="container mx-auto relative z-10 text-center">
+    <h2 class="text-5xl md:text-7xl font-black text-white mb-6 leading-none">
+      A VIDA ALÉM DO <br>
+      <span class="text-yellow-400 uppercase">Algoritmo</span>
+    </h2>
+    <p class="text-xl text-blue-100 max-w-2xl mx-auto font-light leading-relaxed">
+      Automatária atingiu o ápice da Indústria 4.0. Mas com 70% de desemprego estrutural, 
+      estamos redefinindo o que significa ser uma sociedade funcional.
+    </p>
+  </div>
+</header>
